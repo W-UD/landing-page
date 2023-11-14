@@ -1,13 +1,6 @@
-html {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-.body {
+body {
     margin: 0;
-    width: 1000px;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -118,8 +111,7 @@ html {
 
 .img-d {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     color: #1F2937;
@@ -171,7 +163,6 @@ html {
 }
 
 .quote {
-    padding: 10px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -191,7 +182,6 @@ html {
 }
 
 .cta {
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
