@@ -1,6 +1,13 @@
-body {
+html {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.body {
     margin: 0;
-    width: auto;
+    width: 1000px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -111,7 +118,8 @@ body {
 
 .img-d {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     color: #1F2937;
@@ -163,6 +171,7 @@ body {
 }
 
 .quote {
+    padding: 10px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -182,6 +191,7 @@ body {
 }
 
 .cta {
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,4 +220,4 @@ a {
     color: #F9FAF8;
     font-weight: 400;
     font-size: 25px;
-    }
+}
