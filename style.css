@@ -1,5 +1,7 @@
+
 body {
-    width: 1000px;
+    margin: 0;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -209,4 +211,4 @@ a {
     color: #F9FAF8;
     font-weight: 400;
     font-size: 25px;
-}
+        }
